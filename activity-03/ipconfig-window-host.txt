@@ -1,0 +1,50 @@
+PS C:\Users\Pupipat> ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::d5aa:b160:5a84:40b4%18
+   IPv4 Address. . . . . . . . . . . : 192.168.254.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::f24:b6a1:9291:9e77%8
+   IPv4 Address. . . . . . . . . . . : 192.168.136.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2001:fb1:da:c6ab:1bad:571c:6d39:74cf
+   Temporary IPv6 Address. . . . . . : 2001:fb1:da:c6ab:6db8:5c23:28be:312e
+   Link-local IPv6 Address . . . . . : fe80::8b43:befc:d6cc:caa5%5
+   IPv4 Address. . . . . . . . . . . : 192.168.1.37
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::6620:e0ff:fe38:5f78%5
+                                       192.168.1.1
+
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::9db2:fe47:e426:7c7%41
+   IPv4 Address. . . . . . . . . . . : 172.23.0.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+PS C:\Users\Pupipat>
