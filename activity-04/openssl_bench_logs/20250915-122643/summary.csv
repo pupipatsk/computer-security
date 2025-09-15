@@ -1,0 +1,7 @@
+algorithm,metric,size_or_key,trial,estimate
+sha1,MB/s,8192B,1,N/A
+rc4,MB/s,8192B,1,N/A
+bf-ecb,MB/s,8192B,1,N/A
+bf-cbc,MB/s,8192B,1,N/A
+dsa,ops/s,2048-sign,1,2048
+dsa,ops/s,2048-verify,1,2048

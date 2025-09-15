@@ -1,0 +1,51 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BF-CBC for 3s on 16 size blocks: 26972402 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 64 size blocks: 6970482 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 256 size blocks: 1758224 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 1024 size blocks: 440569 BF-CBC's in 3.01s
+Doing BF-CBC for 3s on 8192 size blocks: 55094 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 16384 size blocks: 27547 BF-CBC's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BF-CBC          143852.81k   148703.62k   150035.11k   149881.28k   150443.35k   150443.35k
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BF-CBC for 3s on 16 size blocks: 27007766 BF-CBC's in 3.01s
+Doing BF-CBC for 3s on 64 size blocks: 6976324 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 256 size blocks: 1771608 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 1024 size blocks: 447891 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 8192 size blocks: 56230 BF-CBC's in 3.01s
+Doing BF-CBC for 3s on 16384 size blocks: 27754 BF-CBC's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BF-CBC          143562.88k   148828.25k   151177.22k   152880.13k   153035.27k   151573.85k
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BF-CBC for 3s on 16 size blocks: 27014291 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 64 size blocks: 6978983 BF-CBC's in 3.01s
+Doing BF-CBC for 3s on 256 size blocks: 1762728 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 1024 size blocks: 452321 BF-CBC's in 3.00s
+Doing BF-CBC for 3s on 8192 size blocks: 55313 BF-CBC's in 3.01s
+Doing BF-CBC for 3s on 16384 size blocks: 28144 BF-CBC's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BF-CBC          144076.22k   148390.34k   150419.46k   154392.23k   150539.57k   153703.77k
+
+---

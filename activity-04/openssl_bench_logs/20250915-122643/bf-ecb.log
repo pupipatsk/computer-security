@@ -1,0 +1,51 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BF-ECB for 3s on 16 size blocks: 43863007 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 64 size blocks: 11878828 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 256 size blocks: 3020253 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 1024 size blocks: 772336 BF-ECB's in 3.01s
+Doing BF-ECB for 3s on 8192 size blocks: 125738 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 16384 size blocks: 63611 BF-ECB's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BF-ECB          233936.04k   253415.00k   257728.26k   262748.19k   343348.57k   347400.87k
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BF-ECB for 3s on 16 size blocks: 43995191 BF-ECB's in 3.01s
+Doing BF-ECB for 3s on 64 size blocks: 11908180 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 256 size blocks: 3035615 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 1024 size blocks: 781533 BF-ECB's in 3.01s
+Doing BF-ECB for 3s on 8192 size blocks: 127695 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 16384 size blocks: 65789 BF-ECB's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BF-ECB          233861.48k   254041.17k   259039.15k   265877.01k   348692.48k   359295.66k
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing BF-ECB for 3s on 16 size blocks: 44326664 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 64 size blocks: 12003644 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 256 size blocks: 3057722 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 1024 size blocks: 782846 BF-ECB's in 3.01s
+Doing BF-ECB for 3s on 8192 size blocks: 127475 BF-ECB's in 3.00s
+Doing BF-ECB for 3s on 16384 size blocks: 64917 BF-ECB's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+BF-ECB          236408.87k   256077.74k   260925.61k   266323.69k   348091.73k   354533.38k
+
+---

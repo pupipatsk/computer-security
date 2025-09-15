@@ -1,0 +1,51 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing RC4 for 3s on 16 size blocks: 159115541 RC4's in 3.00s
+Doing RC4 for 3s on 64 size blocks: 50161520 RC4's in 3.00s
+Doing RC4 for 3s on 256 size blocks: 13565037 RC4's in 3.00s
+Doing RC4 for 3s on 1024 size blocks: 3437456 RC4's in 3.01s
+Doing RC4 for 3s on 8192 size blocks: 434997 RC4's in 3.00s
+Doing RC4 for 3s on 16384 size blocks: 217784 RC4's in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+RC4             848616.22k  1070112.43k  1157549.82k  1169420.25k  1187831.81k  1189391.02k
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing RC4 for 3s on 16 size blocks: 156226443 RC4's in 3.01s
+Doing RC4 for 3s on 64 size blocks: 50404517 RC4's in 3.00s
+Doing RC4 for 3s on 256 size blocks: 13525666 RC4's in 3.00s
+Doing RC4 for 3s on 1024 size blocks: 3440253 RC4's in 3.01s
+Doing RC4 for 3s on 8192 size blocks: 435334 RC4's in 3.00s
+Doing RC4 for 3s on 16384 size blocks: 217237 RC4's in 3.08s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+RC4             830439.56k  1075296.36k  1154190.17k  1170371.78k  1188752.04k  1155587.99k
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing RC4 for 3s on 16 size blocks: 158291794 RC4's in 3.00s
+Doing RC4 for 3s on 64 size blocks: 50000108 RC4's in 3.00s
+Doing RC4 for 3s on 256 size blocks: 13397690 RC4's in 3.01s
+Doing RC4 for 3s on 1024 size blocks: 3403560 RC4's in 3.00s
+Doing RC4 for 3s on 8192 size blocks: 430840 RC4's in 3.00s
+Doing RC4 for 3s on 16384 size blocks: 215488 RC4's in 3.01s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+RC4             844222.90k  1066668.97k  1139471.31k  1161748.48k  1176480.43k  1172941.99k
+
+---

@@ -1,0 +1,36 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 2048 bits sign dsa's for 3s: 16522 2048 bits DSA signs in 3.00s
+Doing 2048 bits verify dsa's for 3s: 18196 2048 bits DSA verify in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+                  sign    verify    sign/s verify/s
+dsa 2048 bits 0.000182s 0.000165s   5507.3   6065.3
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 2048 bits sign dsa's for 3s: 16516 2048 bits DSA signs in 3.01s
+Doing 2048 bits verify dsa's for 3s: 18279 2048 bits DSA verify in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+                  sign    verify    sign/s verify/s
+dsa 2048 bits 0.000182s 0.000164s   5487.0   6093.0
+
+---
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 2048 bits sign dsa's for 3s: 16517 2048 bits DSA signs in 3.00s
+Doing 2048 bits verify dsa's for 3s: 18304 2048 bits DSA verify in 3.00s
+version: 3.0.17
+built on: Tue Jul 22 09:27:30 2025 UTC
+options: bn(64,64)
+compiler: arm64-apple-darwin20.0.0-clang -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -fPIC -arch arm64 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/pupipatsingkhorn/miniconda3/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35ami3gu6b/croot/openssl_1753176366470/work=/usr/local/src/conda/openssl-3.0.17 -fdebug-prefix-map=/Users/pupipatsingkhorn/miniconda3=/usr/local/src/conda-prefix -DL_ENDIAN -DOPENSSL_PIC -D_REENTRANT -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -D_FORTIFY_SOURCE=2 -isystem /Users/pupipatsingkhorn/miniconda3/include -mmacosx-version-min=11.1
+CPUINFO: OPENSSL_armcap=0x7d
+                  sign    verify    sign/s verify/s
+dsa 2048 bits 0.000182s 0.000164s   5505.7   6101.3
+
+---
