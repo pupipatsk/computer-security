@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            06:53:96:80:57:c6:c6:dc:f5:31:36:db:c5:c4:9f:bc:9e:a8
+        Signature Algorithm: ecdsa-with-SHA384
+        Issuer: C=US, O=Let's Encrypt, CN=E6
+        Validity
+            Not Before: Aug 19 20:42:10 2025 GMT
+            Not After : Nov 17 20:42:09 2025 GMT
+        Subject: CN=twitter.com
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:ba:5c:dc:0e:2c:0f:e4:16:59:54:06:42:42:c0:
+                    8a:7c:a1:8c:cd:1e:46:89:76:88:6a:ea:dd:41:8e:
+                    3b:aa:6e:3b:d3:48:2a:a2:e4:51:97:d9:d0:b3:52:
+                    a9:3e:d7:4b:2e:d0:cf:27:64:0e:f7:7c:77:b3:cf:
+                    59:f5:51:03:a6
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                7B:A9:AE:D2:07:70:3A:3D:71:04:96:D1:F1:1F:F9:B0:4B:6E:DC:F1
+            X509v3 Authority Key Identifier: 
+                93:27:46:98:03:A9:51:68:8E:98:D6:C4:42:48:DB:23:BF:58:94:D2
+            Authority Information Access: 
+                CA Issuers - URI:http://e6.i.lencr.org/
+            X509v3 Subject Alternative Name: 
+                DNS:*.twitter.com, DNS:cdn.syndication.twitter.com, DNS:twitter.com
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.1
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://e6.c.lencr.org/41.crl
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : CC:FB:0F:6A:85:71:09:65:FE:95:9B:53:CE:E9:B2:7C:
+                                22:E9:85:5C:0D:97:8D:B6:A9:7E:54:C0:FE:4C:0D:B0
+                    Timestamp : Aug 19 21:40:40.445 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:F5:28:54:C5:A8:E1:8A:DB:77:A5:BA:
+                                57:33:94:64:A5:8C:AE:CB:ED:D3:31:44:79:4A:DF:53:
+                                33:ED:5F:51:7C:02:20:48:3B:37:FF:BB:81:DC:FA:72:
+                                D7:45:A5:DF:B1:30:9C:87:EE:FD:65:A7:69:6F:ED:3A:
+                                E8:21:7C:81:B4:ED:6A
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : DD:DC:CA:34:95:D7:E1:16:05:E7:95:32:FA:C7:9F:F8:
+                                3D:1C:50:DF:DB:00:3A:14:12:76:0A:2C:AC:BB:C8:2A
+                    Timestamp : Aug 19 21:40:40.459 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:80:63:29:29:82:54:B0:7E:DF:0E:77:
+                                6A:6C:DB:55:C4:DF:95:2A:10:20:CA:F1:FD:78:C7:DF:
+                                D2:F9:35:B1:A4:02:20:1A:EA:F7:5F:17:77:E4:96:47:
+                                ED:CC:75:DA:5B:A6:9C:7A:58:4F:38:2C:4E:84:92:26:
+                                E6:8A:92:F6:A3:49:CF
+    Signature Algorithm: ecdsa-with-SHA384
+    Signature Value:
+        30:66:02:31:00:ec:b1:01:b6:01:df:d1:8e:8c:fd:4c:a7:01:
+        e1:45:b7:27:ac:ba:d3:77:57:57:d0:f8:2c:89:8d:e8:b2:6a:
+        f5:14:61:17:28:58:ff:d5:7e:f4:61:c6:fc:f1:04:a5:57:02:
+        31:00:a4:98:d5:1b:42:25:94:15:d9:59:95:20:d3:0d:94:69:
+        60:aa:c9:98:f1:9b:7a:9e:25:5d:fa:4f:f7:56:35:30:97:db:
+        58:17:a4:6e:a1:fd:a7:44:14:c9:3d:0c:6a:aa
+-----BEGIN CERTIFICATE-----
+MIIDsDCCAzWgAwIBAgISBlOWgFfGxtz1MTbbxcSfvJ6oMAoGCCqGSM49BAMDMDIx
+CzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJF
+NjAeFw0yNTA4MTkyMDQyMTBaFw0yNTExMTcyMDQyMDlaMBYxFDASBgNVBAMTC3R3
+aXR0ZXIuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEulzcDiwP5BZZVAZC
+QsCKfKGMzR5GiXaIaurdQY47qm4700gqouRRl9nQs1KpPtdLLtDPJ2QO93x3s89Z
+9VEDpqOCAkUwggJBMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcD
+AQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUe6mu0gdwOj1xBJbR
+8R/5sEtu3PEwHwYDVR0jBBgwFoAUkydGmAOpUWiOmNbEQkjbI79YlNIwMgYIKwYB
+BQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMEIG
+A1UdEQQ7MDmCDSoudHdpdHRlci5jb22CG2Nkbi5zeW5kaWNhdGlvbi50d2l0dGVy
+LmNvbYILdHdpdHRlci5jb20wEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYw
+JDAioCCgHoYcaHR0cDovL2U2LmMubGVuY3Iub3JnLzQxLmNybDCCAQQGCisGAQQB
+1nkCBAIEgfUEgfIA8AB2AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2w
+AAABmMRG8X0AAAQDAEcwRQIhAPUoVMWo4Yrbd6W6VzOUZKWMrsvt0zFEeUrfUzPt
+X1F8AiBIOzf/u4Hc+nLXRaXfsTCch+79Zadpb+066CF8gbTtagB2AN3cyjSV1+EW
+BeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABmMRG8YsAAAQDAEcwRQIhAIBjKSmC
+VLB+3w53amzbVcTflSoQIMrx/XjH39L5NbGkAiAa6vdfF3fklkftzHXaW6acelhP
+OCxOhJIm5oqS9qNJzzAKBggqhkjOPQQDAwNpADBmAjEA7LEBtgHf0Y6M/UynAeFF
+tyesutN3V1fQ+CyJjeiyavUUYRcoWP/VfvRhxvzxBKVXAjEApJjVG0IllBXZWZUg
+0w2UaWCqyZjxm3qeJV36T/dWNTCX21gXpG6h/adEFMk9DGqq
+-----END CERTIFICATE-----
