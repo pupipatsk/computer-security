@@ -1,0 +1,15 @@
+# Term Project
+
+## Part A (60%)
+The purpose of this project is to educate you with the fundamentals of security in web applications (secure coding) by fixing the vulnerable application.
+
+Please download Damn Vulnerable Web Application (DVWA)[1](https://github.com/digininja/DVWA.git).
+
+## Instructions
+1.  There are several vulnerabilities/threats in the DVWA. Please identify at-least 8 vulnerabilities/threats in the application.
+2.  For each vulnerability, calculate a risk score based on 4 criteria of OWASP (Exploitability, Weakness Prevalence, Weakness Detectability, and Technical Impacts.)
+
+<table><tr><td>Threat Agents</td><td>Exploitability</td><td>Weakness Prevalence</td><td>Weakness Detectability</td><td>Technical Impacts</td><td>Business Impacts</td></tr><tr><td rowspan="3">Application Specific</td><td>Easy: 3</td><td>Widespread: 3</td><td>Easy: 3</td><td>Severe: 3</td><td rowspan="3">Business Specific</td></tr><tr><td>Average: 2</td><td>Common: 2</td><td>Average: 2</td><td>Moderate: 2</td></tr><tr><td>Difficult: 1</td><td>Uncommon: 1</td><td>Difficult: 1</td><td>Minor: 1</td></tr></table>
+
+3.  For each vulnerability, suggest/show a fix for it. If it is a threat (cannot be fixed), please suggest a mitigation methodology. Please highlight/explain the concept clearly.
+4.  Your fixes/suggestions will be reviewed/graded by your colleagues.
