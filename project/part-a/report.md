@@ -238,3 +238,114 @@ if ($stmt = mysqli_prepare($GLOBALS["___mysqli_ston"], $query)) {
     mysqli_stmt_close($stmt);
 }
 ```
+
+## 9. SQL Injection (Blind)
+**Location:** `vulnerabilities/sqli_blind/source/low.php`
+**Description:** The application is vulnerable to Blind SQL Injection. It does not return data directly but returns different responses ("User ID exists" vs "User ID is MISSING") based on the boolean result of the injected SQL query. Attackers can use this to infer database content character by character.
+
+**Risk Score:**
+*   **Exploitability:** Difficult (1)
+*   **Weakness Prevalence:** Common (2)
+*   **Weakness Detectability:** Difficult (1)
+*   **Technical Impacts:** Severe (3)
+*   **Overall Risk:** High
+
+**Fix:**
+Use prepared statements (`mysqli_prepare`) instead of concatenating user input into the query string. This ensures the database treats the input as data, not executable code.
+
+```php
+// FIX: Use prepared statements
+$query  = "SELECT first_name, last_name FROM users WHERE user_id = ?";
+if ($stmt = mysqli_prepare($GLOBALS["___mysqli_ston"], $query)) {
+    mysqli_stmt_bind_param($stmt, "s", $id);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_store_result($stmt);
+    
+    // Check if row exists
+    if(mysqli_stmt_num_rows($stmt) > 0){
+        $html .= '<pre>User ID exists in the database.</pre>';
+    } else {
+        header( $_SERVER[ 'SERVER_PROTOCOL' ] . ' 404 Not Found' );
+        $html .= '<pre>User ID is MISSING from the database.</pre>';
+    }
+    mysqli_stmt_close($stmt);
+}
+```
+
+## 10. Open Redirect
+**Location:** `vulnerabilities/open_redirect/source/low.php`
+**Description:** The application accepts a user-controlled input (`redirect`) and uses it in a `Location` header to redirect the user. This allows attackers to construct URLs that redirect victims to malicious phishing sites.
+
+**Risk Score:**
+*   **Exploitability:** Average (2)
+*   **Weakness Prevalence:** Common (2)
+*   **Weakness Detectability:** Easy (3)
+*   **Technical Impacts:** Minor (1)
+*   **Overall Risk:** Low
+
+**Fix:**
+Validate the redirect target against a whitelist of allowed URLs or ensure the path is relative and local to the application.
+
+```php
+// FIX: Validate redirect target
+$redirect = $_GET['redirect'];
+$allowed_hosts = array('example.com', 'trusted.com');
+$parsed_url = parse_url($redirect);
+
+if (empty($parsed_url['host']) || in_array($parsed_url['host'], $allowed_hosts)) {
+    header("Location: " . $redirect);
+    exit;
+} else {
+    echo "Invalid redirect target.";
+}
+```
+
+## 11. JavaScript
+**Location:** `vulnerabilities/javascript/source/low.php`
+**Description:** The application relies on client-side JavaScript to generate a "security" token (`md5(rot13(phrase))`). Attackers can easily view the source code, understand the logic, and generate valid tokens to bypass the check, or simply manipulate the client-side code.
+
+**Risk Score:**
+*   **Exploitability:** Easy (3)
+*   **Weakness Prevalence:** Common (2)
+*   **Weakness Detectability:** Easy (3)
+*   **Technical Impacts:** Minor (1)
+*   **Overall Risk:** Low
+
+**Fix:**
+Move all security-critical logic and validation to the server side. Do not rely on client-side scripts for access control or token generation.
+
+```php
+// FIX: Perform validation on the server side
+$phrase = $_POST['phrase'];
+$token = $_POST['token'];
+
+// Calculate expected token on server
+$expected_token = md5(str_rot13($phrase));
+
+if ($token === $expected_token) {
+    echo "Success";
+} else {
+    echo "Invalid token";
+}
+```
+
+## 12. Content Security Policy (CSP) Bypass
+**Location:** `vulnerabilities/csp/source/low.php`
+**Description:** The application implements a CSP but includes broad whitelists for domains like `pastebin.com`. Attackers can upload malicious JavaScript payloads to these trusted domains and then include them in the application to execute XSS attacks, bypassing the CSP.
+
+**Risk Score:**
+*   **Exploitability:** Difficult (1)
+*   **Weakness Prevalence:** Uncommon (1)
+*   **Weakness Detectability:** Difficult (1)
+*   **Technical Impacts:** Moderate (2)
+*   **Overall Risk:** Medium
+
+**Fix:**
+Tighten the CSP. Remove generic content hosting domains like Pastebin from the whitelist. Use a nonce-based policy or cryptographic hashes to allow only specific, trusted scripts.
+
+```php
+// FIX: Strict CSP without generic hosting domains
+$headerCSP = "Content-Security-Policy: script-src 'self' https://ssl.google-analytics.com;";
+header($headerCSP);
+```
+```
